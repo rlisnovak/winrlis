@@ -1,0 +1,152 @@
+html{
+	margin:0;
+	padding:0;
+	height:100%;
+       font-family: Helvetica;
+       font-size: 12px;
+}
+a {
+    color: black;
+    background-color: #31b0d5;
+    text-decoration: none;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+#wrapper_new {
+	min-height:100%;
+	position:relative;
+       
+}
+#headers {
+       padding: 0px;
+       
+}
+#contents {
+/*	padding-bottom:75px;  Height of the footer element 
+       background:buttonface; */
+       padding: 0px;
+       padding-bottom: 80px;
+
+}
+#footers {
+       margin-left: -1px;
+       margin-right: -1px;
+       width: 100%;
+       height: 40px;
+       position: absolute;
+       bottom: 0;
+       left: 0;      
+       padding-left: 0px;
+       padding-right: 0px;  
+       font-size:12px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color:#fff;  
+}
+.footspan_ena {
+    padding-left: 10%;
+    
+}
+.footspan_dva {
+    padding-left: 20%;
+}
+#footpanel {
+    background-color: buttonface; 
+    margin-left: 0px;
+    margin-right: 0px; 
+    border-left-style: hidden; 
+    border-right-style: hidden; 
+    border-style: inset; 
+     
+}
+#footpanelheader {
+    padding:  8px;  
+    margin-left : 0px; 
+    margin-right: 0px;
+    
+}
+.img_style {
+    border-radius: 10px;
+    margin-top: 1px;
+}
+.spanmf {
+    float: left;
+    font-style: italic;
+}
+.spanmb {
+    font-size: 13px; 
+    font-style: italic; 
+}
+#dropdli {
+    float: right;
+}
+#navpis {
+    font-size: 12px;
+}
+#panb {
+    r-width: 0px;
+    width: 100%;
+}
+#navig {
+    border-radius: 15px;
+    min-height: 40px;  
+    width: 100%;
+}
+#panhed {
+    border-radius: 15px; 
+    font-family: Helvetica; 
+    font-size: 16px;
+    
+}
+.pagerlif {
+     float: right; 
+     padding-top: 1px; 
+     padding-left: 1px; 
+     padding-right: 1px; 
+     padding-bottom: 1px; 
+}
+.pagerlig {
+    color : black; 
+    float: left; 
+    padding-top: 2px; 
+    padding-left: 2px; 
+    padding-right: 2px; 
+    margin-left: 1px; 
+    margin-top: 2px; 
+    margin-right: 1px; 
+    padding-bottom: 0px; 
+    border-radius: 10px; 
+    font-family: cursive;
+}
+.pagerlih{
+    float: left; 
+    padding-left: 1px;
+}
+#pagerc {
+    max-height: 65px;
+    
+    width: 100%;
+}
+#panprim {
+    background: buttonface; 
+    border-radius: 0px; 
+    padding-bottom: 0px; 
+    width: 100%;
+    
+    
+}
+.grad {
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient( white , buttonhighlight); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, buttonhighlight); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white,buttonhighlight); /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(buttonhighlight, lightgray);  Standard syntax (must be last) */
+}
